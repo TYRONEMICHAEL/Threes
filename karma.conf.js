@@ -24,8 +24,7 @@ module.exports = function(config) {
         },
 
         browserify: {
-            debug: true,
-            transform: [ 'reactify' ]
+            transform: [ ['reactify', {'es6': true}] ]
         },
 
         // test results reporter to use
@@ -49,7 +48,7 @@ module.exports = function(config) {
         // start these browsers
         // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
         //browsers: ['Chrome', 'Firefox', 'PhantomJS'],
-        browsers: ['Chrome', 'Firefox'],
+        browsers: ['Chrome'],
 
         // Continuous Integration mode
         // if true, Karma captures browsers, runs the tests and exits

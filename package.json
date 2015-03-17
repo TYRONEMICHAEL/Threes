@@ -38,6 +38,8 @@
     "reactify": "^0.14.0"
   },
   "dependencies": {
+    "baconjs": "^0.7.53",
+    "immutable": "^3.6.4",
     "jquery": "^2.1.1",
     "react": "^0.11.1"
   }
