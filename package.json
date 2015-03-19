@@ -1,7 +1,7 @@
 {
-  "name": "react-browserify-boilerplate",
-  "version": "0.2.3",
-  "description": "A React browserify boilerplate. Test your component quickly and continuously with Karma.",
+  "name": "threes-in-js",
+  "version": "0.0.1",
+  "description": "Recreating the Threes game using reactive and functional techniques.",
   "scripts": {
     "start": "./node_modules/browserify/bin/cmd.js ./assets/client.js -t reactify -o ./public/client.js",
     "test": "./node_modules/karma/bin/karma start karma.conf.js",
@@ -17,14 +17,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/TYRONEMICHAEL/react-browserify-boilerplate.git"
+    "url": "https://github.com/TYRONEMICHAEL/threes-in-js.git"
   },
   "author": "Tyrone Michael Avnit <tyronemichael@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TYRONEMICHAEL/react-browserify-boilerplate/issues"
+    "url": "https://github.com/TYRONEMICHAEL/threes-in-js/issues"
   },
-  "homepage": "https://github.com/TYRONEMICHAEL/react-browserify-boilerplate",
+  "homepage": "https://github.com/TYRONEMICHAEL/threes-in-js",
   "devDependencies": {
     "browserify": "^9.0.3",
     "chai": "^1.9.1",
