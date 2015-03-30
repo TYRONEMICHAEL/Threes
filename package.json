@@ -1,5 +1,5 @@
 {
-  "name": "threes-in-js",
+  "name": "threes",
   "version": "0.0.1",
   "description": "Recreating the Threes game using reactive and functional techniques.",
   "scripts": {
@@ -17,22 +17,26 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/TYRONEMICHAEL/threes-in-js.git"
+    "url": "https://github.com/TYRONEMICHAEL/threes.git"
   },
   "author": "Tyrone Michael Avnit <tyronemichael@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TYRONEMICHAEL/threes-in-js/issues"
+    "url": "https://github.com/TYRONEMICHAEL/threes/issues"
   },
-  "homepage": "https://github.com/TYRONEMICHAEL/threes-in-js",
+  "homepage": "https://github.com/TYRONEMICHAEL/threes",
   "devDependencies": {
     "browserify": "^9.0.3",
+    "browserify-istanbul": "^0.2.1",
     "chai": "^1.9.1",
     "karma": "^0.12.21",
     "karma-bro": "^0.6.2",
     "karma-chrome-launcher": "^0.1.4",
+    "karma-coverage": "^0.2.6",
     "karma-firefox-launcher": "^0.1.3",
     "karma-mocha": "^0.1.7",
+    "karma-mocha-reporter": "^1.0.2",
+    "karma-nested-reporter": "^0.1.3",
     "mocha": "^1.21.4",
     "react-tools": "^0.11.1",
     "reactify": "^0.14.0"
@@ -41,6 +45,6 @@
     "baconjs": "^0.7.53",
     "immutable": "^3.6.4",
     "jquery": "^2.1.1",
-    "react": "^0.11.1"
+    "react": "^0.13.1"
   }
 }

@@ -2,7 +2,8 @@
 var Immutable = require('immutable');
 var Bacon = require('baconjs');
 var shuffle = require('../util/shuffle');
-var deck = [1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3];
+
+const deck = [1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3];
 
 var createTile = (number) => Immutable.Map({
   id: (Math.floor(Math.random() * 999999)),
@@ -28,17 +29,17 @@ var createBoard = function () {
     .sort()
     .toArray();
 
-  var insertRow = (row) => Immutable.Range(0, 4)
+  var row = (row) => Immutable.Range(0, 4)
     .map(column => tiles[column + (row * 4)]);
 
   var newBoard = Immutable.Range(0, 4)
-    .map(insertRow)
+    .map(row)
     .toList();
 
   return newBoard;
 };
 
-var store = function(actions) {
+exports.create = function(actions) {
   var board = Bacon.update(
     createBoard(),
     actions.createBoard, createBoard
@@ -48,7 +49,3 @@ var store = function(actions) {
     getBoard: board
   };
 };
-
-exports.create = store;
-
-

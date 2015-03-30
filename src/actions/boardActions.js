@@ -1,6 +1,6 @@
 var Bacon = require('baconjs');
 
-var actions = function() {
+exports.create = function() {
   return {
     /**
     * Start a new game
@@ -9,4 +9,3 @@ var actions = function() {
   };
 };
 
-exports.create = actions;
