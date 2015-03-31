@@ -43,11 +43,10 @@ describe('Board Store', function() {
 
   it('creates a new board', function() {
     var board = immutableBoard.toJS();
-    var idRef = board[0][0].id;
     var newBoard;
 
     boardActions.createBoard.push();
     newBoard = immutableBoard.toJS();
-    expect(newBoard[0][0].id).to.not.equal(idRef);
+    expect(newBoard[0][0].id).to.not.equal(board[0][0].id);
   });
 });
