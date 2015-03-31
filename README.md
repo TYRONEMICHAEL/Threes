@@ -4,7 +4,7 @@ Recreating the game Threes using reactive and functional techniques.
 
 ### Tutorial
 
-View the introduction [here](http://tyronemichael.com/building-the-game-threes-using-functional-reactive-techniques/.
+View the introduction [here](http://tyronemichael.com/building-the-game-threes-using-functional-reactive-techniques/).
 
 ### Instructions
 
