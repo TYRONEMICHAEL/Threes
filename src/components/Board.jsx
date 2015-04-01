@@ -15,7 +15,7 @@ var Board = React.createClass({
     );
 
     return (
-      <table className="board">{rows}</table>
+      <table className="threes__board">{rows}</table>
     );
   }
 });
