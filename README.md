@@ -4,7 +4,8 @@ Recreating the game Threes using reactive and functional techniques.
 
 ### Tutorial
 
-View the introduction [here](http://tyronemichael.com/building-the-game-threes-using-functional-reactive-techniques/).
+* (20 Mar 2015) [BUILDING THE GAME THREES USING FUNCTIONAL & REACTIVE TECHNIQUES](http://tyronemichael.com/building-the-game-threes-using-functional-reactive-techniques/).
+* (31 Mar 2015) [THREES: THE BEGINNING](http://tyronemichael.com/threes-the-beginning/).
 
 ### Instructions
 
